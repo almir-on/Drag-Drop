@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Klee One', cursive;
+    background-color: #B0E0E6;
+    display: flex;
+    padding-top: 5rem;
+    justify-content: center;
+    overflow: hidden;
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.col-header {
+    width: 150px;
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    border-radius: 20px;
+    padding: 0.8rem 1rem; 
+    color: #000;
+    text-align: center;
+}
+
+.item {
+    width: 150px;
+    height: 66px;
+    border: 1px solid #DAE2F8; 
+    box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+    border-radius: 20px;
+    background: #D6A4A4;
+    padding: 0.8rem 1rem; 
+    color: #000;
+    text-align: center;
+    cursor: grab;
+    text-align: center;
+}
+
+
+.item:active {
+    cursor: grabbing;
+}
+
+.placeholder {
+    width: 150px;
+    height: 66px;
+}
+
+.start {
+    background: linear-gradient(to right, #d53369, #cbad6d);
+}
+
+.progress {
+    background: linear-gradient(to right, #ec6f66, #f3a183);
+}
+
+.done {
+    background: linear-gradient(to right, #c04848, #480048);
+}
+
+.hold {
+    background: #f8cbcb;
+}
+
+.hide {
+    display: none;
+}
+
+.hovered {
+    border-top: 2px solid #87CEEB;
+}
